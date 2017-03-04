@@ -1,0 +1,66 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+IP - 192.168.56.1:90;
+*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+body {
+
+	width:100%;
+	margin: 10px;
+}
+
+article {
+	width: 50em;
+	max-width: 100%;
+
+}
+figure{
+	text-align: center;
+}
+
+h1 {
+
+}
+
+img {
+    max-width: 100%;
+}
+.css_effects{
+	display: block;
+	width: 100%;
+	height: 2em;
+	background: red;
+	background: linear-gradient(to right, rgba(255,0,0,1),rgba(178, 251, 7,1));
+	border-radius: 10px;
+	box-shadow: 2px 5px 2px 5px black;
+}
+.bottom{
+	display: flex;
+	flex-wrap: wrap;
+}
+.first {
+	width: 25%;
+}
+.icon-fonts{
+	display: flex;
+	flex-wrap: wrap;
+}
+.second{
+	margin-left: 15px;
+}
